@@ -1,0 +1,155 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+/* Header styles */
+header {
+  background-color: #748384;
+  color: #fff;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.array-inputs {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.array-inputs p {
+  margin: 0;
+  padding-right: 10px;
+}
+
+.array-inputs input[type="range"] {
+  width: 200px;
+}
+
+.array-inputs button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header_right {
+  display: flex;
+  gap: 10px;
+}
+
+.header_right p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.algos button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.algos button:last-child {
+  margin-right: 0;
+}
+
+.algos button:hover {
+  background-color: #333;
+}
+
+/* Section styles */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: black;
+}
+
+.complexity{
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#Info_Cont1,
+#Info_Cont2 {
+  background-color: #333;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+#Info_Cont1 h3,
+#Info_Cont2 h3 {
+  margin-top: 0;
+}
+
+.Complexity_Containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Pair_Definitions {
+  margin: 0 20px;
+}
+
+.Sub_Heading {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#array_container {
+  /* margin-top: 5%; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+#array_container div {
+  width: 10px;
+  margin: 0 1px;
+  background-color: #4caf50;
+  transition: height 0.3s;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
